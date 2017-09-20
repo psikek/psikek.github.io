@@ -1,2 +1,1 @@
-# psikek.github.io
-Pretty epic website if I do say so myself.
+# [psikek.github.io](https://psikek.github.io "Really Good Website")
