@@ -43,6 +43,7 @@ form {
 }
 
 .image-bottomleft,.image-center,.image-topright {
+	border:1px solid #000000;
 	position: fixed;
 	max-width: 200px;
 	width: 45%;
