@@ -13,7 +13,8 @@ a:hover {
 }
 	
 body {
-	background-color: #1D1F21;
+	/*background-color: #1D1F21;*/
+	background-color: #000014;
 	font-family: monospace;
 	font-size: 14;
 	color: #ffffff;
@@ -72,7 +73,8 @@ form {
 .container {
 	padding: 20px;
 	/*opacity: .90;*/
-    background-color: #282A2E;
+    /*background-color: #282A2E;*/
+    background-color: #33353b
 	position: absolute;
     top: 50%;
     left: 50%;
