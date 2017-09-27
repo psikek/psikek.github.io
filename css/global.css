@@ -4,7 +4,7 @@ a,h1,h2,h3,h4,h5,h6 {
 
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 	color: #5F89AC;
 }
 
@@ -21,7 +21,7 @@ body {
 }
 
 table, th, td {
-    border: none 20px;
+	border: none 20px;
 }
 
 td {
@@ -29,10 +29,10 @@ td {
 }
 
 form {
-  font-size: 3em;
-  /*margin-top: 2em;*/
-  color: #CCCCCC;
-  margin-bottom: 1em;
+	font-size: 3em;
+	/*margin-top: 2em;*/
+	color: #CCCCCC;
+	margin-bottom: 1em;
 }
 
 .meme {
@@ -51,8 +51,8 @@ form {
 }
 
 .image-center {
-    top: 50%;
-    left: 50%;
+	top: 50%;
+	left: 50%;
 	transform: translateX(-50%) translateY(-50%)
 }
 
@@ -73,10 +73,10 @@ form {
 .container {
 	padding: 20px;
 	/*opacity: .90;*/
-    /*background-color: #282A2E;*/
-    background-color: #33353b;
+	/*background-color: #282A2E;*/
+	background-color: #183359;
 	position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
 }
