@@ -43,7 +43,6 @@ form {
 }
 
 .image-bottomleft,.image-center,.image-topright {
-	border:1px solid #000000;
 	position: fixed;
 	max-width: 200px;
 	width: 45%;
@@ -73,6 +72,7 @@ form {
 
 .container {
 	padding: 20px;
+	border:1px solid #ffffff0;
 	/*opacity: .90;*/
 	/*background-color: #282A2E;*/
 	background-color: #183359;
