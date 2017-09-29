@@ -1,1 +1,1 @@
-# [psikek.github.io](https://psikek.github.io "Really Good Website")
+# [http://psikek.gq](http://http://psikek.gq "Really Good Website")
