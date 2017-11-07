@@ -15,7 +15,7 @@
 <style type="text/css">
 html,body {
     margin: 0; padding: 0; width: 100%; height: 100%; color: #FFF;
-    font-family: "Liberation Sans", "Dejavu Sans", "Segoe UI", Tahoma; font-size: 10pt;
+    font-family: "terminus", "Liberation Sans", "Dejavu Sans", "Segoe UI", Tahoma; font-size: 10pt;
 }
 #perspective {
     position: absolute; top: 0; left: 0; width: 100%; height: 100%;
@@ -114,28 +114,28 @@ var presets=[ // curve x3(x2), margins x3(x2), translateZ x3(x2), rotation x3(x7
     [0,0,0, 0,0,0, -330,-650,-920, 330,650,920, 30,160,280, 30,160,280, 0,20,0, 0,40,0, 0,60,0, 0,-20,0, 0,-40,0, 0,-60,0, 0,0,0, 30,10,0],         // Preset 6
     [0,0,0, 0,0,0, -350,-700,-700, 350,700,700, 0,0,0, 0,0,0, 0,45,45, 0,135,135, 0,135,135, 0,-45,-45, 0,-135,-135, 0,135,135, 0,0,0, 25,0,0],     // Preset 7
 ];
-var preset          = 2;                    // 0 = null (Custom settings) (1,3 and 6 is widescreen)
+var preset          = 7;                    // 0 = null (Custom settings) (1,3 and 6 is widescreen)
 var displayPreset   = false;                // Output current settings as preset string
 
 // * = loaded from preset
 var pg              = 3;                    // Selected box
 var searchBox       = 3;                    // Box containing search engines/input fields (see "links")
-var dim             = [ 30, 10, 0 ];        // * Opacity: 0-100 (step1,step2,step3) (%)
-var dimColor        = "#000000";            // Text input dim color
+var dim             = [ 0, 0, 0 ];        // * Opacity: 0-100 (step1,step2,step3) (%)
+var dimColor        = "";            // Text input dim color
 var background      = "#2f343f";            // Background color
 var color           = "#f3f4f5";            // Text/Link color
-var autoFocus       = "search-1"            // "" = none | default: "search-1"
+var autoFocus       = ""            // "" = none | default: "search-1"
 
 var enableScroll    = true;                 // Enable/Disable the posibility to scroll boxes
 var enableTags      = true;                 // Show/Hide switch buttons/tags
 var enableKeys      = true;                 // Allow key navigation when search field is not active
 var enableTouch     = true;                 // Enable touch screen support
-var enableTitle     = false;                // Enable clickable box titles/content
+var enableTitle     = true;                // Enable clickable box titles/content
 
 var invertScroll    = false;                // Invert mouse wheel
 var useScrollLock   = true;                 // Delay next scroll trigger (prevents box skip)
 var scrollLockMS    = 300;                  // Wait in milliseconds
-var edgeBlock       = false;                // Block scrolling past the edge
+var edgeBlock       = true;                // Block scrolling past the edge
 
 var curve=[ // Vertical movement (marginTop)
     [ 0, 0, 0],                             // * Left side (step1,step2,step3)
