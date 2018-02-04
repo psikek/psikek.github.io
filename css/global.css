@@ -14,7 +14,7 @@ a:hover {
 	
 body {
 	/*background-color: #1D1F21;*/
-	background-color: #000014;
+	background-color: #000000;
 	font-family: monospace;
 	font-size: 14;
 	color: #ffffff;
@@ -72,10 +72,10 @@ form {
 
 .container {
 	padding: 20px;
-	border:1px solid #ffffff;
+	border:1px solid #969696;
 	/*opacity: .90;*/
 	/*background-color: #282A2E;*/
-	background-color: #183359;
+	background-color: #3b3b3b;
 	position: absolute;
 	top: 50%;
 	left: 50%;
