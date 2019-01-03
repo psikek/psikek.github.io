@@ -55,6 +55,10 @@ form {
 	margin-bottom: 1em;
 }
 
+.comfylinks {
+	position: absolute; left: 20px; bottom: 10px;
+}
+
 .sitename{
 	font-size: 12pt;
 	font-weight: normal;
@@ -124,7 +128,7 @@ form {
 
 @font-face {
 	font-family:"04b_20";
-	src:url('../fonts/04B_20.ttf') format('truetype');
+	src:url('../fonts/04b_20.ttf') format('truetype');
 } 
 
 @font-face {
